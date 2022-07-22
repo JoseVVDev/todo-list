@@ -1,0 +1,37 @@
+.headerTodo {
+    color: var(--blue);
+    background: var(--gray-700);
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 0;
+    height: 25vh;
+}
+
+.headerTodo h1 {
+    margin: auto 0;
+    font-size: 2.5rem;
+    padding: 0;
+}
+
+.headerTodo span {
+    color: var(--purple);
+}
+
+.headerTodo img {
+    height: 2.5rem;
+    margin: auto 8px;
+}
+
+@media (max-height: 600px) {
+        .headerTodo {
+            height: 30vh;
+        }        
+
+        .headerTodo h1 {
+            font-size: 1.75rem;
+        }
+
+        .headerTodo img {
+            height: 1.75rem;
+        }
+}
